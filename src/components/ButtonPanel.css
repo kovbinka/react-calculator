@@ -1,0 +1,19 @@
+.button-panel {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5em;
+    margin: 1px;
+}
+
+button:last-child {
+    grid-column: 1 / -1;
+    transition: 0.4s;
+}
+
+button:last-child:hover {
+    background-color: #14eeb9;
+}

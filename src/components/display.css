@@ -1,0 +1,14 @@
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.display {
+    /* background: #d1d3df8f; */
+    padding-right: 20px;
+    font-size: 2em;
+    text-align: right;
+}
